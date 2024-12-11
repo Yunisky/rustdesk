@@ -1,11 +1,11 @@
 [package]
-name = "rustdesk"
+name = "RustDesk Huawei SA Edition"
 version = "1.3.5"
-authors = ["rustdesk <info@rustdesk.com>"]
+authors = ["Luke JIA <srv@uniportal.cc>"]
 edition = "2021"
 build= "build.rs"
-description = "RustDesk Remote Desktop"
-default-run = "rustdesk"
+description = "RustDesk Remote Desktop Huawei SA Edition"
+default-run = "RustDesk Huawei SA Edition"
 rust-version = "1.75"
 
 [lib]
