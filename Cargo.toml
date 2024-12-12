@@ -1,11 +1,11 @@
 [package]
-name = "rustdesk"
+name = "rustdesk_huawei"
 version = "1.3.5"
 authors = ["Luke JIA <srv@uniportal.cc>"]
 edition = "2021"
 build= "build.rs"
 description = "RustDesk Remote Desktop Huawei SA Edition"
-default-run = "rustdesk"
+default-run = "rustdesk_huawei"
 rust-version = "1.75"
 
 [lib]
@@ -192,7 +192,7 @@ os-version = "0.2"
 hound = "3.5"
 
 [package.metadata.bundle]
-name = "rustdesk"
+name = "rustdesk_huawei"
 identifier = "com.carriez.rustdesk"
 icon = ["res/32x32.png", "res/128x128.png", "res/128x128@2x.png"]
 osx_minimum_system_version = "10.14"
