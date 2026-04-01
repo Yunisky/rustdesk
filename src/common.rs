@@ -896,7 +896,7 @@ pub fn get_api_server(api: String, custom: String) -> String {
     if !api.is_empty() {
         return api.to_owned();
     }
-    let api = option_env!("API_SERVER").unwrap_or_default();
+    let api = config::DEFAULT_API_SERVER;
     if !api.is_empty() {
         return api.into();
     }
